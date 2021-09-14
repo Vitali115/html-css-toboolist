@@ -1,10 +1,32 @@
   
 * {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444851;
+  
 }
 
+h1 {
+  font-size: 50px;
+  color: #041931;
+}
+
+
+
+header {
+  height: 96px;
+  padding: 10px;
+  display: flex;
+  align-items:center;
+  margin-left: 2%;
+}
+
+
+
 .box{
-  width: 50%;
+  width: 60%;
   margin: auto;
   background-color: white;
   padding: 20px;
@@ -12,32 +34,85 @@
 
 }
 
+.intern {
+  margin-left: 30px;
+}
+
+
 /******************************/
 .bubble {
   color: white;
-  border-radius: 12px;
+  border-radius: 20px;
   margin-left: 0.2em;
-  padding: 0.6em;
-  font-size: 12px;
+  padding: 0.6em 1em;
+  font-size: 10px;
 
 }
+
+.bbl{
+  border-radius: 8px;
+  padding: 10px 26px;
+  font-size: 14px;
+  margin: 8px 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.frst{
+  background-color: #47ADF1 ;
+  color: rgb(255, 255, 255);
+  border:none;
+}
+
+.scnd{
+  background-color: white;
+  color: #C5CBD0;
+  border: 2px solid #C5CBD0;
+}
+
+
+
+
 
 /******************************/
 
-.color1 {
+.wt {
   background-color: white;
 }
 
-.color2 {
+.gry {
   background-color: #F6F8F9;
 }
 
 .blue{
   background-color: #47ADF1;
 }
+.violet{
+  background-color: #9C72E4;
+}
+.green{
+  background-color: #8BD0BF;
+}
+.gren{
+  background-color: #B0C926;
+}
+
+.orange{
+  background-color: #F29E33;
+}
+.rez {
+  background-color: #D863A1;
+
+}
 
 /******************************/
 
 
 
+.center {
+  display: flex;
+  align-items:center;
+  padding: 6px;
+
+}
 
